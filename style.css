@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #add8e6;
+  --secondary-color: #DAB1DA;
+  --third-color: #023009;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
