@@ -2,6 +2,9 @@
   --primary-color: #add8e6;
   --secondary-color: #DAB1DA;
   --third-color: #023009;
+
+  --roboto: "Roboto", sans-serif;
+  --pt-serif: "PT Serif", serif;
 }
 
 body {
@@ -11,6 +14,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: var(--roboto);
+}
+
+h2, p{
+  font-family: var(--pt-serif);
+}
+
+h2{
+  font-size: 35px;
 }
 
 .score-container{
@@ -19,4 +31,6 @@ body {
 
 .score{
   margin: 10px 20px 10px 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
